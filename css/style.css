@@ -2350,6 +2350,13 @@ body._active {
 .page__furniture {
   padding-top: 1.25rem;
   padding-bottom: 5rem;
+  
+}
+
+@media (max-width: 77.9375em) {
+	.page__furniture {
+	  display: none;
+	}
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
